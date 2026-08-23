@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Protocol core issues
+    url: https://github.com/StrataMesh-Laboratory/stratamesh-core/issues
+    about: Bugs and features for the protocol codebase
+  - name: Live node status
+    url: https://status.calhegasmorais.pt/
+    about: Operational pulse of FOG-NODE-PT-CM-001
+  - name: Operator / security
+    url: mailto:amcmorais@icloud.com
+    about: AMCM ENI contact for coordinated disclosure
