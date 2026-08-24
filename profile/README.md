@@ -9,6 +9,7 @@ Research DLT for **Fog/Edge resource coordination** and **STRATA settlement**.
 | [stratamesh-core](https://github.com/StrataMesh-Laboratory/stratamesh-core) | Protocol core — DAG, gossip, tip selection, STRATA, workers |
 | [stratamesh-laboratory](https://github.com/StrataMesh-Laboratory/stratamesh-laboratory) | Lab charter, posture, research focus, ladder |
 | [calhegas-morais-node](https://github.com/StrataMesh-Laboratory/calhegas-morais-node) | Reference Fog Node `FOG-NODE-PT-CM-001` (Lisboa) |
+| [stratamesh-impact-fund](https://github.com/StrataMesh-Laboratory/stratamesh-impact-fund) | Pooled grants · GitHub evidence → statistics ([fund.calhegasmorais.pt](https://fund.calhegasmorais.pt/)) |
 
 **Operator entity:** [AMCM ENI](https://github.com/amcmorais/amcm-eni) · **Site:** [calhegasmorais.pt](https://calhegasmorais.pt/) · **Status:** [status.calhegasmorais.pt](https://status.calhegasmorais.pt/)
 
