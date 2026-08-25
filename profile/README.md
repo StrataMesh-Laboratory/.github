@@ -20,6 +20,8 @@ Research DLT for **Fog/Edge resource coordination** and **STRATA settlement**.
 
 **Operator entity:** [AMCM ENI](https://github.com/amcmorais/amcm-eni) · **Site:** [calhegasmorais.pt](https://calhegasmorais.pt/) · **Status:** [status.calhegasmorais.pt](https://status.calhegasmorais.pt/)
 
+**Forum:** [stratamesh.discourse.group](https://stratamesh.discourse.group) · Contact: `geral@eni.calhegasmorais.pt`
+
 ### Holonic stack (lab)
 
 ```
