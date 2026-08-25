@@ -5,6 +5,7 @@ Research DLT for **Fog/Edge resource coordination** and **STRATA settlement**.
 **LAB** — not mainnet · not aBFT · PQ placeholders only.
 
 **Open contribution.** Fork any public repo → PR to `main`. `@amcmorais` is **one contributor** (org admin / reference-node operator via AMCM ENI), not a personal mainline.
+**Subject–Object Economy:** humans and SCAs are **subjects**; STRATA/NFTs/resources are **objects**. Population = subjects only. [Normative note](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/docs/SUBJECT-OBJECT-ECONOMY.md).
 
 | Repository | Role |
 |------------|------|
