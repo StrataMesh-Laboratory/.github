@@ -4,12 +4,18 @@ Research DLT for **Fog/Edge resource coordination** and **STRATA settlement**.
 
 **LAB** — not mainnet · not aBFT · PQ placeholders only.
 
+**Open contribution.** Fork any public repo → PR to `main`. `@amcmorais` is **one contributor** (org admin / reference-node operator via AMCM ENI), not a personal mainline.
+
 | Repository | Role |
 |------------|------|
 | [stratamesh-core](https://github.com/StrataMesh-Laboratory/stratamesh-core) | Protocol core — DAG, gossip, tip selection, STRATA, workers |
 | [stratamesh-laboratory](https://github.com/StrataMesh-Laboratory/stratamesh-laboratory) | Lab charter, posture, research focus, ladder |
 | [calhegas-morais-node](https://github.com/StrataMesh-Laboratory/calhegas-morais-node) | Reference Fog Node `FOG-NODE-PT-CM-001` (Lisboa) |
-| [stratamesh-impact-fund](https://github.com/StrataMesh-Laboratory/stratamesh-impact-fund) | Pooled grants · GitHub evidence → statistics ([fund.calhegasmorais.pt](https://fund.calhegasmorais.pt/)) |
+| [stratamesh-impact-fund](https://github.com/StrataMesh-Laboratory/stratamesh-impact-fund) | Pooled grants · challenges · Sponsors rails ([fund.calhegasmorais.pt](https://fund.calhegasmorais.pt/)) |
+
+**Start here:** [CONTRIBUTING.md](https://github.com/StrataMesh-Laboratory/.github/blob/main/CONTRIBUTING.md) · [Impact challenges](https://fund.calhegasmorais.pt/challenges) · [Security](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/SECURITY.md)
+
+**Archived personal path:** [`amcmorais/stratamesh-core`](https://github.com/amcmorais/stratamesh-core) is outdated — use the org core only.
 
 **Operator entity:** [AMCM ENI](https://github.com/amcmorais/amcm-eni) · **Site:** [calhegasmorais.pt](https://calhegasmorais.pt/) · **Status:** [status.calhegasmorais.pt](https://status.calhegasmorais.pt/)
 
