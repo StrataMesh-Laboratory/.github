@@ -1,31 +1,38 @@
-# Contributing — StrataMesh Laboratory
+# Contributing to StrataMesh Laboratory
 
-## Where code lives
+**Open contribution is welcome.** Canonical code lives under [`StrataMesh-Laboratory`](https://github.com/StrataMesh-Laboratory).
 
-| Work | Repository |
-|------|------------|
-| Protocol, workers, benchmarks, wire/threat docs | [stratamesh-core](https://github.com/StrataMesh-Laboratory/stratamesh-core) |
-| Lab posture, charter, research framing | [stratamesh-laboratory](https://github.com/StrataMesh-Laboratory/stratamesh-laboratory) |
-| Reference Fog Node identity & ops registry | [calhegas-morais-node](https://github.com/StrataMesh-Laboratory/calhegas-morais-node) |
+`@amcmorais` is **one contributor** (and org admin / reference-node operator via AMCM ENI). Reviews and merges are organisation work, not a personal mainline.
 
-## Principles
+## Where to contribute
 
-1. **Subtraction over addition** — protocol invariants before metaverse surface area.
-2. **Lab honesty** — never claim mainnet, aBFT finality, or production PQ.
-3. **Normative docs first** — behaviour that contradicts `WIRE-PROTOCOL-v1` / `THREAT-MODEL-v1` is a bug or a doc PR, not silent drift.
-4. **Economic poles** — `#mint` emit-only (PoC); `#0` burn-only; Fog `NODE_WALLET` is treasury, not a user/SCA account.
+| Repository | Focus |
+|------------|--------|
+| [stratamesh-core](https://github.com/StrataMesh-Laboratory/stratamesh-core) | Protocol core, workers, DAG, tip selection, docs |
+| [stratamesh-laboratory](https://github.com/StrataMesh-Laboratory/stratamesh-laboratory) | Charter, posture, research ladder |
+| [calhegas-morais-node](https://github.com/StrataMesh-Laboratory/calhegas-morais-node) | Reference Fog node registry |
+| [stratamesh-impact-fund](https://github.com/StrataMesh-Laboratory/stratamesh-impact-fund) | Impact Fund app · challenges · Sponsors rails |
 
-## Practical path
+**Do not** use [`amcmorais/stratamesh-core`](https://github.com/amcmorais/stratamesh-core) — it is **archived** (outdated personal path).
 
-```bash
-git clone https://github.com/StrataMesh-Laboratory/stratamesh-core.git
-cd stratamesh-core/src && python3 protocol_benchmark.py
-```
+## How (fork → PR)
 
-Open PRs against `main` with: what changed, which invariant or scenario it touches, and lab risk if any.
+1. Fork the target repo under your account.
+2. Branch from `main` (`feat/…`, `fix/…`, `docs/…`).
+3. Open a Pull Request against `StrataMesh-Laboratory/<repo>:main`.
+4. Fill the PR template; link issues / impact challenges when relevant.
+5. Keep changes reviewable; add tests for behavioural core changes.
 
-## Holonic vocabulary (do not collapse)
+Issues and [Impact challenges](https://fund.calhegasmorais.pt/challenges) (`impact-challenge` label) are first-class entry points. Funded work uses the same PR path with metrics on the issue.
 
-`TRD ≠ Fog Node ≠ SO Metaverso ≠ Domínio Virtual ≠ Mundo Aberto ≠ Bancada CGU ≠ Utilizador|SCA`
+## Lab honesty
 
-Forbidden shorthand that merges host OS / VM / Metaverse OS into one bag.
+This is **lab / not mainnet**. Do not claim production finality, aBFT, or live PQ. See the public roadmap in `stratamesh-core`.
+
+## Licence
+
+Unless noted otherwise, contributions are under the repository’s licence (MIT on core).
+
+## Conduct
+
+Be precise, technical, and respectful. No harassment. Security-sensitive reports: prefer private contact to the operator (`geral@eni.calhegasmorais.pt`) before public issues when disclosure could harm the node.
