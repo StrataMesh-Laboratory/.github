@@ -4,6 +4,11 @@
 
 `@amcmorais` is **one contributor** (and org admin / reference-node operator via AMCM ENI). Reviews and merges are organisation work, not a personal mainline.
 
+## Discussion
+
+Use the lab forum for design talk (code review stays on GitHub):
+https://stratamesh.discourse.group
+
 ## Where to contribute
 
 | Repository | Focus |
