@@ -35,3 +35,5 @@ TRD StrataMesh
 - [`docs/WIRE-PROTOCOL-v1.md`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/docs/WIRE-PROTOCOL-v1.md)
 - [`docs/THREAT-MODEL-v1.md`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/docs/THREAT-MODEL-v1.md)
 - [`src/protocol_benchmark.py`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/src/protocol_benchmark.py)
+
+**Contributors:** problem tracks for libp2p / edge / compute-economy / agents / worlds engineers — [outreach map](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/main/docs/COMMUNITY-OUTREACH-MAP.md) · [Fund challenges](https://fund.calhegasmorais.pt/challenges).
