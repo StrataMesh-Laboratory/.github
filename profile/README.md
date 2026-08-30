@@ -22,6 +22,19 @@ Research DLT for **Fog/Edge resource coordination** and **STRATA settlement**.
 
 **Forum:** [stratamesh.discourse.group](https://stratamesh.discourse.group) · Contact: `geral@eni.calhegasmorais.pt`
 
+### Install a node (lab)
+
+Latest trees are on **[v0.4.2-lab](https://github.com/StrataMesh-Laboratory/stratamesh-core/releases/tag/v0.4.2-lab)**. The Fog **kit** shipped as **[v0.3.0](https://github.com/StrataMesh-Laboratory/stratamesh-core/releases/tag/v0.3.0)**. Lab prereleases. Not mainnet. `oracle_live=false`. `f_max=0` until n≥3.
+
+| Node | Substrate | Release | Installer |
+|------|-----------|---------|-----------|
+| **Fog** | macOS | [v0.3.0 kit](https://github.com/StrataMesh-Laboratory/stratamesh-core/releases/tag/v0.3.0) · tree [v0.4.2-lab](https://github.com/StrataMesh-Laboratory/stratamesh-core/tree/v0.4.2-lab/deploy/mac-fog) | Double-click [`FogNodeInstaller.command`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/v0.4.2-lab/deploy/mac-fog/FogNodeInstaller.command) or `python3 deploy/mac-fog/fog-bootstrap.py`. Finder apps: [`deploy/mac-fog/apps/`](https://github.com/StrataMesh-Laboratory/stratamesh-core/tree/v0.4.2-lab/deploy/mac-fog/apps). Kit notes: [`deploy/fog-node/README.md`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/v0.4.2-lab/deploy/fog-node/README.md). |
+| **Edge** | iOS (iPhone / iPad) | kit **v0.3.1** on tree [v0.4.2-lab](https://github.com/StrataMesh-Laboratory/stratamesh-core/tree/v0.4.2-lab/deploy/ios-edge) | **PWA now:** [api-edge.calhegasmorais.pt/app/](https://api-edge.calhegasmorais.pt/app/) → Share → Add to Home Screen. Native: open [`deploy/ios-edge/StrataMeshEdge/`](https://github.com/StrataMesh-Laboratory/stratamesh-core/tree/v0.4.2-lab/deploy/ios-edge/StrataMeshEdge) in Xcode 15+, team-sign, Run on device. Notes: [`deploy/ios-edge/README.md`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/v0.4.2-lab/deploy/ios-edge/README.md). |
+
+Request a `FOG-NODE-…` or `EDGE-NODE-…` id on [Discourse](https://stratamesh.discourse.group) first (bound to the operator email). Wizard is 2FA. No secrets in git.
+
+**CMN MacBook continuity (why public Fog drops):** the reference origin is the laptop — named tunnel → workerd `:8788` → Fog `:8787`, `ORIGIN=macbook`. Sleep / lid / battery **halts the CPU**. That is not a Fog crash; cloudflared and workerd are off, so the public origin goes dark. Idle-sleep is held by [`FogStayAwake.command`](https://github.com/StrataMesh-Laboratory/stratamesh-core/blob/v0.4.2-lab/deploy/mac-fog/FogStayAwake.command) (`caffeinate -ims` + 2 min wake kick). **Lid + battery still sleeps (hardware).** On charger, lid-closed stay-up is `sudo pmset -c disablesleep 1`. Edge continuity is **session** by design (`C_mesh = f(1−U)`).
+
 ### Holonic stack (lab)
 
 ```
