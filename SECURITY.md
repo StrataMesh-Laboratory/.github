@@ -21,7 +21,7 @@ Responsible disclosure for laboratory systems and public repositories:
 | In scope | Out of scope |
 |----------|----------------|
 | `stratamesh-core` protocol code and workers | Third-party upstream CF/GitHub platform bugs |
-| Public lab endpoints on `*.calhegasmorais.pt` | Social engineering of the operator |
+| Public lab endpoints on `node.spencer-morais.pt` (and legacy `*.calhegasmorais.pt`) | Social engineering of the operator |
 | Auth / clearance boundary mistakes | Issues requiring physical access to Fog hardware |
 
 ## Response
