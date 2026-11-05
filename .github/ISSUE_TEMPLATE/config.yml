@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/StrataMesh-Laboratory/stratamesh-core/issues
     about: Bugs and features for the protocol codebase
   - name: Live node status
-    url: https://status.calhegasmorais.pt/
+    url: https://node.spencer-morais.pt/status/
     about: Operational pulse of FOG-NODE-PT-CM-001
   - name: Operator / security
     url: mailto:amcmorais@icloud.com
